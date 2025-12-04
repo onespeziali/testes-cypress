@@ -80,7 +80,6 @@ cypress-e2e-tests/
 │   │   └── login.cy.js         # Testes da página de login
 │   ├── fixtures/               # Dados de teste
 │   ├── support/                # Comandos customizados
-│   └── videos/                 # Vídeos das execuções
 ├── cypress.config.js           # Configurações do Cypress
 ├── package.json
 └── README.md
@@ -100,12 +99,6 @@ O arquivo `cypress.config.js` contém as configurações principais:
 }
 ```
 
-## 📊 Relatórios
-
-Após a execução dos testes em modo headless:
-- **Vídeos**: salvos em `cypress/videos/`
-- **Screenshots** (em caso de falha): salvos em `cypress/screenshots/`
-
 ## 🛠️ Tecnologias Utilizadas
 
 - [Cypress](https://www.cypress.io/) - Framework de testes E2E
@@ -122,21 +115,13 @@ Após a execução dos testes em modo headless:
 }
 ```
 
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.
 
 ## 👤 Autor
 
-Seu Nome - [GitHub](https://github.com/seu-usuario)
+Daniel Speziali - [GitHub](https://github.com/seu-usuario)
 
 ---
 
